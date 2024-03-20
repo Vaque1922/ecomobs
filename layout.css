@@ -1,0 +1,971 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* ========================================navabr====================== */
+
+#nav_img{
+    display: none;
+}
+#navbar{
+
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+#navbar ul{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#navbar ul li{
+    
+    margin-left: 1%;
+    margin-right: 3%;
+    list-style: none;
+}
+
+
+#logo img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    z-index: 6;
+}
+.nav_link{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   font-weight: bold;
+   border-radius: 20px;
+   font-size: 20px;
+   padding: 5px 15px;
+
+  
+}
+.nav_link:hover{
+    color:black;
+    border-radius: 0px;
+    border-bottom: 2px solid black;
+  cursor: pointer;
+}
+#cartimg{
+    
+    vertical-align: middle;
+     margin-right: 5px;
+     width: 17px;
+}
+.cart{
+
+    text-decoration: none;
+    position: absolute;
+    right: 190px;
+    top: 22px;
+    color: black;
+    font-weight: bold;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart:hover{
+    background: black;
+    color:rgba(255, 255, 255, 0.469);
+}
+
+.counter_add{
+    position: absolute;
+    right: 180px;
+    top: 3px;
+    background-color: rgba(0, 0, 0, 0.515);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.677);
+
+}
+
+
+
+
+
+.login{
+
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    color: black;
+    font-weight: bold;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login:hover{
+    background: black;
+    color:rgba(255, 255, 255, 0.446);
+}
+
+
+
+/* =====================================MEDIA QUERY NAVBAR====================================== */
+@media (min-width:425px) and (max-width:440px){
+
+
+#navbar ul li{
+    margin-left: -15px;
+    margin-right: 2px;
+}
+
+#logo img{
+    width: 60px;
+    height: 60px;
+    left: 8px;
+    top: 5px;
+}
+
+.cart{
+    right: 190px;
+    top: 50px;
+    padding: 2px;
+}
+.counter_add{
+    top: 35px;
+    padding: 2px;
+}
+
+.login{
+    right: 25px;
+    top: 50px;
+    padding: 2px 15px;
+}
+
+}
+
+/* ------------------360-400------- */
+@media (min-width:390px) and (max-width:425px){
+
+
+    #navbar ul li{
+        margin-left: -15px;
+        margin-right: 2px;
+    }
+    
+    #logo img{
+        width: 40px;
+        height: 40px;
+        left: 8px;
+        top: 10px;
+    }
+    
+    .cart{
+        right: 190px;
+        top: 50px;
+        padding: 2px;
+    }
+    .counter_add{
+        top: 35px;
+        padding: 2px;
+    }
+    
+    .login{
+        right: 25px;
+        top: 50px;
+        padding: 2px 15px;
+    }
+    
+    }
+    /* -----------------350 to 390--------- */
+    @media (min-width:350px) and (max-width:390px){
+
+
+        #navbar ul li{
+            margin-left: -25px;
+            margin-right: 2px;
+        }
+        
+        #logo img{
+            width: 40px;
+            height: 40px;
+            left: 8px;
+            top: 10px;
+        }
+        
+        .cart{
+            right: 190px;
+            top: 50px;
+            padding: 1px;
+        }
+        .counter_add{
+            top: 35px;
+            padding: 1px;
+        }
+        
+        .login{
+            right: 25px;
+            top: 50px;
+            padding: 1px 15px;
+        }
+        
+        }
+        /* --------300 to 350------- */
+        @media (min-width:330px) and (max-width:350px){
+
+            #navbar ul{
+                margin-left: -20px;
+            }
+            #navbar ul li{
+                margin-left: -20px;
+                margin-right: 2px;
+            }
+            
+            #logo img{
+                width: 40px;
+                height: 40px;
+                left: 8px;
+                top: 40px;
+            }
+            
+            .cart{
+                right: 190px;
+                top: 50px;
+                padding: 1px;
+            }
+            .counter_add{
+                top: 35px;
+                padding: 1px;
+            }
+            
+            .login{
+                right: 25px;
+                top: 50px;
+                padding: 1px 15px;
+            }
+            
+            }
+            /* --------300 to 330------ */
+        @media (min-width:300px) and (max-width:330px){
+
+            #navbar ul{
+                margin-left: -35px;
+            }
+            #navbar ul li{
+                margin-left: -25px;
+                margin-right: 2px;
+            }
+            
+            #logo img{
+                width: 40px;
+                height: 40px;
+                left: 8px;
+                top: 40px;
+            }
+            
+            .cart{
+                right: 190px;
+                top: 50px;
+                padding: 1px;
+            }
+            .counter_add{
+                top: 35px;
+                padding: 1px;
+            }
+            
+            .login{
+                right: 25px;
+                top: 50px;
+                padding: 1px 15px;
+            }
+            
+            }
+
+            /* ===============tablet=========== */
+            /* ---------440 to 600 */
+            @media (min-width:440px) and (max-width:600px){
+
+                #navbar ul{
+                    margin-left: 15px;
+                }
+                #navbar ul li{
+                    margin-left: -10px;
+                    margin-right: 2px;
+                }
+                
+                #logo img{
+                    width: 50px;
+                    height: 50px;
+                    left: 8px;
+                    top: 10px;
+                }
+                
+                .cart{
+                    right: 190px;
+                    top: 50px;
+                    padding: 1px;
+                }
+                .counter_add{
+                    top: 35px;
+                    padding: 1px;
+                }
+                
+                .login{
+                    right: 25px;
+                    top: 50px;
+                    padding: 1px 15px;
+                }
+                
+                }
+
+                /* -----600 to 700 */
+                @media (min-width:600px) and (max-width:700px){
+
+
+                    #navbar ul li{
+                        margin-left: 5px;
+                        margin-right: 2px;
+                    }
+                    
+                    #logo img{
+                        width: 60px;
+                        height: 60px;
+                        left: 8px;
+                        top: 10px;
+                    }
+                    
+                    .cart{
+                        right: 190px;
+                        top: 50px;
+                        padding: 2px;
+                    }
+                    .counter_add{
+                        top: 35px;
+                        padding: 2px;
+                    }
+                    
+                    .login{
+                        right: 25px;
+                        top: 50px;
+                        padding: 2px 15px;
+                    }
+                    
+                    }
+                           /* -----700 to 750 */
+                @media (min-width:700px) and (max-width:750px){
+        
+                    #navbar ul{
+                        margin-left: 80px;
+                    }
+                    #navbar ul li{
+                        margin-left: 15px;
+                        margin-right: 12px;
+                    }
+                    
+                    #logo img{
+                        width: 80px;
+                        height: 80px;
+                        left: 8px;
+                        top: 10px;
+                    }
+                    
+                    .cart{
+                        right: 190px;
+                        top: 50px;
+                        padding: 2px;
+                    }
+                    .counter_add{
+                        top: 35px;
+                        padding: 2px;
+                    }
+                    
+                    .login{
+                        right: 25px;
+                        top: 50px;
+                        padding: 2px 15px;
+                    }
+                    
+                    }
+
+                 /* -----750 to 800 */
+                @media (min-width:750px) and (max-width:800px){
+        
+                    #navbar ul{
+                        margin-left: 80px;
+                    }
+                    #navbar ul li{
+                        margin-left: 15px;
+                        margin-right: 12px;
+                    }
+                    
+                    #logo img{
+                        width: 80px;
+                        height: 80px;
+                        left: 8px;
+                        top: 10px;
+                    }
+                    
+                    .cart{
+                        right: 190px;
+                        top: 50px;
+                        padding: 2px;
+                    }
+                    .counter_add{
+                        top: 35px;
+                        padding: 2px;
+                    }
+                    
+                    .login{
+                        right: 25px;
+                        top: 50px;
+                        padding: 2px 15px;
+                    }
+                    
+                    }
+
+
+                  /* -----800 to 850 */
+                @media (min-width:800px) and (max-width:850px){
+        
+                    #navbar ul{
+                        margin-left: 80px;
+                    }
+                    #navbar ul li{
+                        margin-left: 15px;
+                        margin-right: 12px;
+                    }
+                    
+                    #logo img{
+                        width: 80px;
+                        height: 80px;
+                        left: 8px;
+                        top: 10px;
+                    }
+                    
+                    .cart{
+                        right: 190px;
+                        top: 50px;
+                        padding: 2px;
+                    }
+                    .counter_add{
+                        top: 35px;
+                        padding: 2px;
+                    }
+                    
+                    .login{
+                        right: 25px;
+                        top: 50px;
+                        padding: 2px 15px;
+                    }
+                    
+                    }
+              /* -----850 to 900 */
+              @media (min-width:850px) and (max-width:900px){
+        
+                #navbar ul{
+                    margin-left: -170px;
+                }
+                #navbar ul li{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                
+                #logo img{
+                    width: 90px;
+                    height: 90px;
+                    left: 8px;
+                    top: 20px;
+                }
+                
+                .cart{
+                    right: 190px;
+                    top: 20px;
+                    padding: 2px;
+                }
+                .counter_add{
+                    top: 8px;
+                    padding: 2px;
+                }
+                
+                .login{
+                    right: 25px;
+                    top: 20px;
+                    padding: 2px 15px;
+                }
+                
+                }
+
+             /* -----900 to 1000 */
+              @media (min-width:900px) and (max-width:1000px){
+        
+                #navbar ul{
+                    margin-left: -170px;
+                }
+                #navbar ul li{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                
+                #logo img{
+                    width: 90px;
+                    height: 90px;
+                    left: 8px;
+                    top: 20px;
+                }
+                
+                .cart{
+                    right: 190px;
+                    top: 20px;
+                    padding: 2px;
+                }
+                .counter_add{
+                    top: 8px;
+                    padding: 2px;
+                }
+                
+                .login{
+                    right: 25px;
+                    top: 20px;
+                    padding: 2px 15px;
+                }
+                
+                }
+
+    
+             /* -----1000 to 1250 */
+             @media (min-width:1000px) and (max-width:1250px){
+        
+                #navbar ul{
+                    margin-left: -170px;
+                }
+                #navbar ul li{
+                    margin-left: 20px;
+                    margin-right: 10px;
+                }
+                
+                #logo img{
+                    width: 90px;
+                    height: 90px;
+                    left: 8px;
+                    top: 20px;
+                }
+                
+                .cart{
+                    right: 190px;
+                    top: 20px;
+                    padding: 2px;
+                }
+                .counter_add{
+                    top: 8px;
+                    padding: 2px;
+                }
+                
+                .login{
+                    right: 25px;
+                    top: 20px;
+                    padding: 2px 15px;
+                }
+                
+                }
+                      /* -----1250 to 1500 */
+             @media (min-width:1250px) and (max-width:1500px){
+        
+                #navbar ul{
+                    margin-left: -170px;
+                }
+                #navbar ul li{
+                    margin-left: 50px;
+                    margin-right: 10px;
+                }
+                
+                #logo img{
+                    width: 100px;
+                    height: 100px;
+                    left: 18px;
+                    top: 20px;
+                }
+                
+                .cart{
+                    right: 190px;
+                    top: 20px;
+                    padding: 2px;
+                }
+                .counter_add{
+                    top: 8px;
+                    padding: 2px;
+                }
+                
+                .login{
+                    right: 25px;
+                    top: 20px;
+                    padding: 2px 15px;
+                }
+                
+                }
+/* ============================================= footer=====================================================*/
+
+#footer{
+    width: 100%;
+    background: linear-gradient(to top, black, white);
+    height: 450px;
+}
+
+#foot1{
+    width: 80%;
+    margin-left: 10%;
+    height: 70%;
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 120px;
+}
+
+.foot1a{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(0);
+}
+.foot1a h3{
+  color: rgba(0, 0, 0, 0.527);
+  font-weight: bold;
+}
+.foot1a_link{
+    text-decoration: none;
+    color: black;
+}
+.foot1a_link:hover{
+    text-decoration: underline;
+}
+
+
+
+#foot2{
+    width: 100%;
+    height: 10%;
+    margin-top: 6%;
+    border-top: 1px solid rgba(255, 255, 255, 0.441);
+}
+
+/* ===================warning===================== */
+
+#foot2 ul{
+    display: flex;
+    gap: 20px;
+}
+
+/* ========================================================= */
+
+
+#foot2 ul li{
+    list-style: none;
+}
+
+.foot2_link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.636);
+}
+
+.foot2_link:hover{
+  text-decoration: underline;
+}
+.foot2_link_eng{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.636);
+    position: absolute;
+    right: 90px;
+}
+.foot2_link_eng:hover{
+    text-decoration: underline;
+  }
+.foot2_link_inr{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.636);
+    position: absolute;
+    right: 40px;
+}
+.foot2_link_inr:hover{
+    text-decoration: underline;
+  }
+
+
+  /* ======================media query of footer============================================== */
+  @media (min-width:400px) and (max-width:440px)
+  {
+    
+
+    #foot1{
+        gap: 20px;
+    }
+
+    .foot1a{
+        font-size: 15px;
+    }
+ 
+    #foot2 ul{
+        gap: 5px;
+    }
+    .foot2_link_eng{
+      
+        right: 220px;
+        bottom: 40px;
+    }
+    .foot2_link_inr{
+    
+        right: 170px;
+        bottom: 40px;
+    }
+
+  }
+
+  /* ----------------350 to 400px----- */
+  @media (min-width:350px) and (max-width:400px)
+  {
+    
+    #foot1{
+        gap: 20px;
+    }
+
+    .foot1a{
+        font-size: 15px;
+    }
+ 
+    #foot2 ul{
+        gap: 5px;
+        margin-left: -20px;
+    }
+    .foot2_link{
+        font-size: 13px;
+    }
+    .foot2_link_eng{
+      
+        right: 220px;
+        bottom: 40px;
+    }
+    .foot2_link_inr{
+    
+        right: 170px;
+        bottom: 40px;
+    }
+
+  }
+
+  /* --------300 to 350---------------- */
+  @media (min-width:325px) and (max-width:350px)
+  {
+    
+    #foot1{
+        gap: 20px;
+    }
+
+    .foot1a{
+        font-size: 15px;
+    }
+ 
+    #foot2 ul{
+        gap: 5px;
+        margin-left: -20px;
+    }
+    .foot2_link{
+        font-size: 13px;
+    }
+    .foot2_link_eng{
+      
+        right: 220px;
+        bottom: 40px;
+    }
+    .foot2_link_inr{
+    
+        right: 170px;
+        bottom: 40px;
+    }
+
+  }
+
+  /* ----------------300 to 325 */
+  @media (min-width:300px) and (max-width:325px)
+  {
+    
+    #foot1{
+        gap: 20px;
+    }
+
+    .foot1a{
+        font-size: 15px;
+    }
+ 
+    #foot2 ul{
+        gap: 5px;
+        margin-left: -20px;
+    }
+    .foot2_link{
+        font-size: 13px;
+    }
+    .foot2_link_eng{
+       
+        right: 200px;
+        bottom: 40px;
+    }
+    .foot2_link_inr{
+    
+        right: 150px;
+        bottom: 40px;
+    }
+
+  }
+
+  /* ========tablet============ */
+  /* ---------440 to 500px */
+  @media (min-width:440px) and (max-width:500px)
+  {
+    
+
+    #foot1{
+        gap: 20px;
+    }
+
+    .foot1a{
+        font-size: 15px;
+    }
+ 
+    #foot2 ul{
+        gap: 5px;
+    }
+    .foot2_link_eng{
+      
+        right: 220px;
+        bottom: 40px;
+    }
+    .foot2_link_inr{
+    
+        right: 170px;
+        bottom: 40px;
+    }
+
+  }
+/* -------------500 to 600 */
+  @media (min-width:500px) and (max-width:550px)
+  {
+    
+
+    #foot1{
+        gap: 20px;
+    }
+
+    .foot1a{
+        font-size: 15px;
+    }
+ 
+    #foot2 ul{
+        gap: 5px;
+    }
+    .foot2_link_eng{
+      
+        right: 220px;
+        bottom: 40px;
+    }
+    .foot2_link_inr{
+    
+        right: 170px;
+        bottom: 40px;
+    }
+
+  }
+  /* -------------570 to 600 */
+  @media (min-width:550px) and (max-width:600px)
+  {
+    
+
+    #foot1{
+        gap: 20px;
+    }
+
+    .foot1a{
+        font-size: 15px;
+    }
+ 
+    #foot2 ul{
+        gap: 5px;
+    }
+    .foot2_link_eng{
+      
+        right: 60px;
+        
+    }
+    .foot2_link_inr{
+    
+        right: 10px;
+        
+    }
+
+  }
+  
+
+    /* -------------600 to 800 */
+    @media (min-width:600px) and (max-width:800px)
+    {
+      
+  
+      #foot1{
+          gap: 20px;
+      }
+  
+      .foot1a{
+          font-size: 15px;
+      }
+   
+      #foot2 ul{
+          gap: 5px;
+      }
+      .foot2_link_eng{
+        
+          right: 60px;
+          
+      }
+      .foot2_link_inr{
+      
+          right: 10px;
+          
+      }
+  
+    }
+    
+    /* -------------800 to 1000 */
+    @media (min-width:800px) and (max-width:1000px)
+    {
+      
+  
+      #foot1{
+          gap: 20px;
+      }
+  
+      .foot1a{
+          font-size: 15px;
+      }
+   
+      #foot2 ul{
+          gap: 5px;
+      }
+      .foot2_link_eng{
+        
+          right: 80px;
+          
+      }
+      .foot2_link_inr{
+      
+          right: 30px;
+          
+      }
+  
+    }

@@ -1,0 +1,126 @@
+
+.help_desk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 590px;
+    background-color: rgba(0, 0, 0, 0.214);
+}
+
+.help_desk img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.how_help{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.help_desk label{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+#issue{
+    margin-top: 5px;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.problems{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.your_account{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+
+.your_account span{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.your_account span:hover{
+    text-decoration: none;
+}
+
+.help_communities{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.help_communities span{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.help_communities span:hover{
+    text-decoration: none;
+}
+
+
+.status_dashboard{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+@media (min-width:300px) and (max-width:400px)
+{
+  
+.help_desk{
+    height: 790px;
+}  
+
+.your_account h2{
+    font-size: 20px;
+}
+
+
+.help_communities h2{
+    font-size: 20px;
+}
+
+.status_dashboard h2{
+   font-size: 20px;
+}
+
+
+}
+
+@media (min-width:400px) and (max-width:450px)
+{
+  
+.help_desk{
+    height: 790px;
+}  
+
+.your_account h2{
+    font-size: 20px;
+}
+
+
+.help_communities h2{
+    font-size: 20px;
+}
+
+.status_dashboard h2{
+   font-size: 20px;
+}
+
+
+}

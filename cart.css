@@ -1,0 +1,569 @@
+.added_item{
+
+    width: 100%;
+    text-align: center;
+}
+.added_item h1{
+font-size: 40px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgba(0, 0, 0, 0.695);
+}
+
+
+
+
+.addedItem_table{
+    display: flex;
+    justify-content: center;
+}
+
+.addedItem_th{
+    color: rgba(0, 0, 0, 0.625);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 160px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.519);
+    padding: 10px;
+}
+
+.addedItem_td{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+.addedItem_img{
+    width: 200px;
+    height: 200px;
+}
+.addedItem_img:hover{
+    scale: 1.07;
+    transition: 0.2s;
+}
+
+.qnt_val{
+    padding: 8px;
+}
+
+
+.minus_icon{
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+.plus_icon{
+    width: 23px;
+    cursor: pointer;
+    height: 23px;
+}
+.rmv_icon{
+    cursor: pointer;
+}
+
+
+
+
+/* ==============================total amount */
+
+.netAmount{
+    width: 88%;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.buy_now_btn{
+ width:150px;
+ height: 60px;
+ align-self: center;
+ border-radius: 20px;
+ font-size: 20px;
+ color:white;
+ background-color: rgba(0, 0, 0, 0.394);
+
+}
+.buy_now_btn:hover{
+    background-color: rgba(255, 255, 255, 0.566);
+    color: black;
+}
+/* media query============ */
+@media (min-width:420px) and (max-width:440px)
+{
+    
+    .addedItem_th{
+        width: 10px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    
+    .addedItem_td{
+        font-size:13px;
+    }
+    
+    .addedItem_img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .rmv_icon{
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .netAmount{
+        width: 95%;
+        font-size: 10px;
+    }
+    
+    .buy_now_btn{
+     width:80px;
+     height: 40px;
+     border-radius: 20px;
+     font-size: 14px;
+    }
+}
+/* -------350 to 240*/
+@media (min-width:350px) and (max-width:420px)
+{
+    
+    .addedItem_th{
+        width: 10px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    
+    .addedItem_td{
+        font-size:12px;
+    }
+    
+    .addedItem_img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .rmv_icon{
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .netAmount{
+        width: 95%;
+        font-size: 10px;
+    }
+    
+    .buy_now_btn{
+     width:80px;
+     height: 40px;
+     border-radius: 20px;
+     font-size: 14px;
+    }
+}
+/* -------300 to 350*/
+@media (min-width:300px) and (max-width:350px)
+{
+    
+    .addedItem_th{
+        width: 10px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    
+    .addedItem_td{
+        font-size:10px;
+    }
+    
+    .addedItem_img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .rmv_icon{
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .netAmount{
+        width: 95%;
+        font-size: 10px;
+    }
+    
+    .buy_now_btn{
+     width:80px;
+     height: 40px;
+     border-radius: 20px;
+     font-size: 14px;
+    }
+}
+/* media query============ */
+@media (min-width:440px) and (max-width:540px)
+{
+    
+    .addedItem_th{
+        width: 10px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    
+    .addedItem_td{
+        font-size:13px;
+    }
+    
+    .addedItem_img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .rmv_icon{
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .netAmount{
+        width: 95%;
+        font-size: 10px;
+    }
+    
+    .buy_now_btn{
+     width:80px;
+     height: 40px;
+     border-radius: 20px;
+     font-size: 14px;
+    }
+}
+/* -------540 to 640 */
+@media (min-width:540px) and (max-width:640px)
+{
+    
+    .addedItem_th{
+        width: 10px;
+        font-size: 11px;
+        padding: 2px;
+    }
+    
+    .addedItem_td{
+        font-size:20px;
+    }
+    
+    .addedItem_img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .rmv_icon{
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .netAmount{
+        width: 95%;
+        font-size: 10px;
+    }
+    
+    .buy_now_btn{
+     width:80px;
+     height: 40px;
+     border-radius: 20px;
+     font-size: 14px;
+    }
+}
+/* -------640 to 740 */
+@media (min-width:640px) and (max-width:740px)
+{
+    
+    .addedItem_th{
+        width: 10px;
+        font-size: 20px;
+        padding: 2px;
+    }
+    
+    .addedItem_td{
+        font-size:20px;
+    }
+    
+    .addedItem_img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .rmv_icon{
+        width: 45px;
+        cursor: pointer;
+    }
+
+    .netAmount{
+        width: 95%;
+        font-size: 15px;
+    }
+    
+    .buy_now_btn{
+     width:80px;
+     height: 40px;
+     border-radius: 20px;
+     font-size: 14px;
+    }
+}
+/* =======================================================================form payment=================================================== */
+
+.form_payment{
+    width: 80%;
+    margin-left: 10%;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    width: 45%;
+    height: 99%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.payment{
+
+    width: 45%;
+    height: 99%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+
+#first_name{
+    width: 35%;
+    height: 8%;
+    margin-top: 10%;
+    margin-left: 14%;
+    border-radius: 10px;
+    text-align: center;
+    border:none;
+
+}
+#last_name{
+    width: 35%;
+    text-align: center;
+    height: 8%;
+    margin-left: 1%;
+    border-radius: 10px;
+    border:none;
+}
+#num_form{
+    width: 72%;
+    height: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 14%;
+    border-radius: 10px;
+    border:none;
+}
+#email_form{
+    width: 72%;
+    height: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 14%;
+    border-radius: 10px;
+    border:none;
+}
+
+#add_form{
+    width: 72%;
+    height: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 14%;
+    border-radius: 10px;
+    border:none;
+}
+
+#submit_form{
+    width: 72%;
+    height: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 14%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.345);
+}
+
+
+.payment_methods{
+    width: 80%;
+    height: 3%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.upi_form{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+.upi_form input{
+   margin-top: 5%;
+   text-align: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px ;
+    border: none;
+}
+
+.upi_form button{
+
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5%;
+
+}
+
+
+@media (min-width:400px) and (max-width:500px)
+{
+    .form_payment{
+        height: 250px;
+    }
+    
+    .form{
+        border-radius: 15px;
+    }
+    
+    .payment{
+        border-radius: 15px;
+    }
+    
+    
+    #first_name{
+        border-radius: 5px;
+        font-size: 11px;
+    }
+    #last_name{
+        border-radius: 5px;
+        font-size: 11px;
+
+    }
+    
+    
+    .upi_form{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 100%;
+    }
+    .upi_h1{
+        font-size: 10px;
+    }
+    .amt_h1{
+        font-size: 15px;
+    }
+    
+    .upi_form input{
+       margin-top: 2%;
+       text-align: center;
+        width: 100%;
+        height: 20px;
+        border-radius: 10px ;
+        border: none;
+    }
+    .upi_form button{
+        height: 25px;
+        
+    
+    }
+    
+}
+
+/* ---------300px to 400px */
+
+@media (min-width:300px) and (max-width:400px)
+{
+    .form_payment{
+        height: 250px;
+    }
+    
+    .form{
+        border-radius: 15px;
+    }
+    
+    .payment{
+        border-radius: 15px;
+    }
+    
+    
+    #first_name{
+        border-radius: 5px;
+        font-size: 11px;
+    }
+    #last_name{
+        border-radius: 5px;
+        font-size: 11px;
+
+    }
+    
+    
+    .upi_form{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 100%;
+    }
+    .upi_h1{
+        font-size: 8px;
+    }
+    .amt_h1{
+        font-size: 10px;
+    }
+    
+    .upi_form input{
+       margin-top: 2%;
+       text-align: center;
+        width: 100%;
+        height: 20px;
+        border-radius: 10px ;
+        border: none;
+    }
+    .upi_form button{
+        height: 25px;
+    
+    }
+    
+    
+   .payment_methods label{
+    font-size: 13px;
+    padding-right: 30px;
+   }
+}
+
+
+
+.payment_process{
+
+    width: 100%;
+    height: 470px;
+    text-align: center;
+}
+
+.payment_process h1{
+    margin-top: 14%;
+    font-size:50px ;
+}
+
+.payment_done{
+
+    width: 100%;
+    height: 470px;
+    text-align: center;
+    padding-top: 12%;
+}
+
+.payment_process span{
+    margin-top: 14%;
+    font-size:50px ;
+}
